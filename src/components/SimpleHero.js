@@ -5,3 +5,4 @@ const simpleHero = ({ children }) => {
 }
 
 export default simpleHero
+
