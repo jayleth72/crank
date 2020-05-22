@@ -1,10 +1,17 @@
-import React from "react"
-import Layout from "../components/Layout"
+import React, { Component } from 'react'
+import Layout from '../components/Layout'
 import { graphql } from "gatsby"
 import StyledHero from "../components/StyledHero"
 
-const testimonials = () => {
-  return <Layout>testimonials page</Layout>
+export default class clients extends Component {
+    render() {
+        return(
+            <Layout>
+               <StyledHero img={this.props.data.defaultBcg.childImageSharp.fluid}/>
+            </Layout>
+        )
+      
+    }
 }
 
 export const query = graphql`
@@ -18,5 +25,3 @@ export const query = graphql`
     }
   }
 `
-
-export default testimonials

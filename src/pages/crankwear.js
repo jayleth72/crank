@@ -1,10 +1,15 @@
-import React from "react"
-import Layout from "../components/Layout"
+import React from 'react'
+import Layout from '../components/Layout'
 import { graphql } from "gatsby"
 import StyledHero from "../components/StyledHero"
 
-const testimonials = () => {
-  return <Layout>testimonials page</Layout>
+const programs = () => {
+    return (
+        <Layout>
+             program page
+        </Layout>
+      
+    )
 }
 
 export const query = graphql`
@@ -19,4 +24,4 @@ export const query = graphql`
   }
 `
 
-export default testimonials
+export default programs
