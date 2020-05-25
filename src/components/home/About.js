@@ -27,16 +27,16 @@ const About = () => {
             {/* <img src={img} alt="about barefoot homeschooling" /> */}
             <Img
               fluid={aboutImage.childImageSharp.fluid}
-              alt="barefoot wanderings"
+              alt="about Image for Crank"
             />
           </div>
         </article>
         <article className={styles.aboutInfo}>
-          <h4>The Barefoot Story</h4>
+          <h4>The Crank Story</h4>
           <p>
-            Building a child's sense of "Belonging" to a meaningful and
-            nurturing Community so they feel hope of "Becoming" a valued,
-            influential and passionate member of our Society.
+            Crank is a Man Mountain. Although he didn't become a Man Mountain
+            overnight. It took years of dedication tuition from the his master,
+            Lord Boxhead, to become a man mountain.
           </p>
           <button type="button" className="btn-primary">
             read more
@@ -48,4 +48,3 @@ const About = () => {
 }
 
 export default About
-
