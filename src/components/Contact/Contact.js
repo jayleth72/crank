@@ -17,7 +17,8 @@ const Contact = () => {
 
         <form className={styles.form}>
           <div>
-            <input
+            <input action="https://formspree.io/jay.letheby@gmail.com"
+              method="POST"
               type="text"
               name="name"
               id="name"
