@@ -1,6 +1,11 @@
 .contact {
   padding: 4rem 0;
 }
+
+p {
+  color: var(--mainWhite);
+}
+
 .center {
   width: 80vw;
   margin: 0 auto;
