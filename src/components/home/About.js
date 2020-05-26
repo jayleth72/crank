@@ -1,7 +1,6 @@
 import React from "react"
 import Title from "../Title"
 import styles from "../../css/about.module.css"
-// import img from "../../images/defaultBcg.jpeg"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
@@ -24,7 +23,6 @@ const About = () => {
       <div className={styles.aboutCenter}>
         <article className={styles.aboutImg}>
           <div className={styles.imgContainer}>
-            {/* <img src={img} alt="about barefoot homeschooling" /> */}
             <Img
               fluid={aboutImage.childImageSharp.fluid}
               alt="about Image for Crank"
@@ -35,7 +33,7 @@ const About = () => {
           <h4>The Crank Story</h4>
           <p>
             Crank is a Man Mountain. Although he didn't become a Man Mountain
-            overnight. It took years of dedication tuition from the his master,
+            overnight. It took years of dedication and tuition from the his master,
             Lord Boxhead, to become a man mountain.
           </p>
           <button type="button" className="btn-primary">
