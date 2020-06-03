@@ -5,9 +5,10 @@ import Banner from "../components/Banner"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import About from "../components/home/About"
 import Services from "../components/home/Services"
+import FeaturedClients from "../components/home/FeaturedClients"
 import { graphql } from "gatsby"
 
-export default ({data}) => (
+export default ({ data }) => (
   <Layout>
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
@@ -21,6 +22,7 @@ export default ({data}) => (
     </StyledHero>
     <About />
     <Services />
+    <FeaturedClients />
   </Layout>
 )
 

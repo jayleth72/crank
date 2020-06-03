@@ -16,7 +16,9 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
-          <img src={logo} alt="barefoot logo" />
+          <AniLink paintDrip hex="#222" to="/">
+            <img src={logo} alt="crank with hank logo" />
+          </AniLink>
           <button type="button" className={styles.logoBtn} onClick={toggleNav}>
             <FaAlignRight className={styles.logoIcon} />
           </button>
@@ -31,7 +33,9 @@ const Navbar = () => {
           {links.map((item, index) => {
             return (
               <li key={index}>
-                <AniLink paintDrip hex="#222" to={item.path}>{item.text}</AniLink>
+                <AniLink paintDrip hex="#222" to={item.path}>
+                  {item.text}
+                </AniLink>
               </li>
             )
           })}

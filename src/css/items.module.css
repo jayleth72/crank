@@ -1,6 +1,7 @@
-.tours {
+.clients {
   padding: 4rem 0;
   text-align: center;
+  background: var(--mainWhite);
 }
 .center {
   width: 80vw;

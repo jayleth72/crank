@@ -12,6 +12,7 @@
 .service {
   margin: 2rem 0;
   text-align: center;
+  
 }
 .service span {
   background: var(--primaryColor);
@@ -22,4 +23,8 @@
 }
 .service h4 {
   text-transform: uppercase;
+}
+
+.service p {
+  color: var(--mainBlack);
 }
