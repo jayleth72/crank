@@ -23,7 +23,7 @@ const Contact = () => {
           onSubmit={(values, { setSubmitting }) => {
             console.log("Submitting")
           }}
-          validationSchema={Yup.object.shape({
+          validationSchema={Yup.object().shape({
             name: Yup.string().required("Please enter your name"),
             email: Yup.string().email().required("Email is required"),
             message: Yup.string().required("Please enter a message"),
