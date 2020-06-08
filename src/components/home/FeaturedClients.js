@@ -17,7 +17,7 @@ const getClients = graphql`
           shortBio
           afterImage {
             fluid {
-              src
+              ...GatsbyContentfulFluid_tracedSVG
             }
           }
         }
@@ -32,11 +32,12 @@ const FeaturedClients = () => {
   return (
     <section className={styles.clients}>
       <Title black title="featured" subtitle="clients" />
-      hello from featured tours
-      {clients.map(({ node }) => {
-        return <Client key={node.contentful_id} client={node} />
-      })}
-      <AniLink fade to="/clients" className="btn-primary">
+      <div className={styles.center}>
+        {clients.map(({ node }) => {
+          return <Client key={node.contentful_id} client={node} />
+        })}
+      </div>
+      <AniLink paintDrip hex="#222" to="/clients" className="btn-primary">
         All Clients
       </AniLink>
     </section>

@@ -1,8 +1,8 @@
-.tour {
+.client {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
 }
-.tour:hover {
+.client:hover {
   box-shadow: var(--darkShadow);
 }
 
