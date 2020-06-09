@@ -61,7 +61,7 @@
 .info h4 {
   margin-bottom: 0;
 }
-.country {
+.workout {
   text-transform: capitalize;
   color: var(--primaryColor);
   display: flex;
@@ -73,5 +73,5 @@
 .details {
   color: var(--darkGrey);
   text-transform: uppercase;
-  text-align: right;
+  text-align: left;
 }

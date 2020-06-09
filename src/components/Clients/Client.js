@@ -5,7 +5,14 @@ import { BsPeopleCircle } from "react-icons/bs"
 import AniLink from "gatsby-plugin-transition-link"
 
 const Client = ({ client }) => {
-  const { name, shortbio, afterImage } = client
+  const {
+    name,
+    shortBio,
+    workoutPersona,
+    favouriteExercise,
+    starSign,
+    afterImage,
+  } = client
   let mainImage = afterImage.fluid
 
   return (
@@ -16,9 +23,27 @@ const Client = ({ client }) => {
           className={styles.img}
           alt="featured client photo"
         />
-        <AniLink paintDrip hex="#222" className={styles.link} to={`/clients/${shortbio}`}>
-          {name + "\'s "} story
-        </AniLink>  
+        <AniLink
+          paintDrip
+          hex="#222"
+          className={styles.link}
+          to={`/clients/${shortBio}`}
+        >
+          {name + "'s "} story
+        </AniLink>
+      </div>
+      <div className={styles.footer}>
+        <h3>{name}</h3>
+        <div className={styles.info}>
+          <h4 className={styles.workout}>
+            <BsPeopleCircle className={styles.icon} />
+            {workoutPersona}
+          </h4>
+          <div className={styles.details}>
+            <h6>Star Sign: {starSign}</h6>
+            <h6>Favourite exercise: {favouriteExercise}</h6>
+          </div>
+        </div>
       </div>
     </article>
   )

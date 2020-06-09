@@ -15,6 +15,9 @@ const getClients = graphql`
           contentful_id
           name
           shortBio
+          workoutPersona
+          favouriteExercise
+          starSign
           afterImage {
             fluid {
               ...GatsbyContentfulFluid_tracedSVG
