@@ -8,18 +8,18 @@ export default [
     icon: <MdFitnessCenter />,
     title: "Personal Training",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "Weight Loss, Body Sculpting, fitness training and muscle development. ",
   },
   {
     icon: <FcSportsMode />,
     title: "Sports Coaching",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "AFL Accredited sports coaching and other sports",
   },
   {
     icon: <FaTshirt />,
     title: "CrankWear",
     text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, earum. ",
+      "Exclusive, original and funky workout wear to make you stand out in the crowd ",
   },
 ]

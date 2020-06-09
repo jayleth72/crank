@@ -17,7 +17,7 @@ const Client = ({ client }) => {
           alt="featured client photo"
         />
         <AniLink paintDrip hex="#222" className={styles.link} to={`/clients/${shortbio}`}>
-          details
+          {name + "\'s "} story
         </AniLink>  
       </div>
     </article>
