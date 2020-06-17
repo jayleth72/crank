@@ -1,17 +1,18 @@
-import React, { Component } from 'react'
-import Layout from '../components/Layout'
+import React, { Component } from "react"
+import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import StyledHero from "../components/StyledHero"
+import Clients from "../components/Clients/Clients"
 
 export default class clients extends Component {
-    render() {
-        return(
-            <Layout>
-               <StyledHero img={this.props.data.defaultBcg.childImageSharp.fluid}/>
-            </Layout>
-        )
-      
-    }
+  render() {
+    return (
+      <Layout>
+        <StyledHero img={this.props.data.defaultBcg.childImageSharp.fluid} />
+        <Clients />
+      </Layout>
+    )
+  }
 }
 
 export const query = graphql`
