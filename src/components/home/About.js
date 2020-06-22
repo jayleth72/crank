@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 
 const getAbout = graphql`
   query aboutImage {
-    aboutImage: file(relativePath: { eq: "defaultBcg.jpeg" }) {
+    aboutImage: file(relativePath: { eq: "hank2.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid_tracedSVG
@@ -33,8 +33,8 @@ const About = () => {
           <h4>The Crank Story</h4>
           <p>
             Crank is a Man Mountain. Although he didn't become a Man Mountain
-            overnight. It took years of dedication and tuition from the his master,
-            Lord Boxhead, to become a man mountain.
+            overnight. It took years of dedication and tuition from the his
+            master, Lord Boxhead, to become a man mountain.
           </p>
           <button type="button" className="btn-primary">
             read more
