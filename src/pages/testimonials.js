@@ -9,7 +9,7 @@ const testimonials = () => {
 
 export const query = graphql`
   query {
-    defaultBcg: file(relativePath: { eq: "defaultBcg.jpeg" }) {
+    defaultBcg: file(relativePath: { eq: "hank1.jpg" }) {
       childImageSharp {
         fluid(quality: 90, maxWidth: 4160) {
           ...GatsbyImageSharpFluid_withWebp
