@@ -13,7 +13,7 @@ const crankwear = ({data}) => {
 
 export const query = graphql`
   query {
-    blogBcg: file(relativePath: { eq: "crankwear.jpg" }) {
+    blogBcg: file(relativePath: { eq: "crankwear.jpeg" }) {
       childImageSharp {
         fluid(quality: 90, maxWidth: 4160) {
           ...GatsbyImageSharpFluid_withWebp

@@ -17,7 +17,7 @@ export default class clients extends Component {
 
 export const query = graphql`
   query {
-    defaultBcg: file(relativePath: { eq: "clients.jpg" }) {
+    defaultBcg: file(relativePath: { eq: "clients.jpeg" }) {
       childImageSharp {
         fluid(quality: 90, maxWidth: 4160) {
           ...GatsbyImageSharpFluid_withWebp
