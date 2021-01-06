@@ -9,6 +9,7 @@
   background: transparent;
   border: none;
   outline: none;
+  height: 80px;
 }
 .logo-btn:hover {
   cursor: pointer;
