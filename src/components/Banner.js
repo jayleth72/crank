@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "../css/banner.module.css"
-import logo from "../images/crank_white_acro.png"
+import logo from "../images/crank_logo_white.png"
 
 const Banner = ({ title, info, children }) => {
   return (
