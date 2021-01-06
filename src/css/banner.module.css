@@ -17,9 +17,8 @@
 }
 
 banner img {
-	height: 0.001%;
-	margin-top: 0.25rem;
-	margin-bottom: 0.5rem;
+	height: 200px;
+	margin-top: 0.1rem
 	padding: 0 1rem;
 }
 @media screen and (min-width: 768px) {
