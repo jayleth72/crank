@@ -5,11 +5,16 @@
   align-items: center;
   padding: 1rem 1.25rem;
 }
+
+.nav-header {
+	height: 80px;
+}
+
 .logo-btn {
   background: transparent;
   border: none;
   outline: none;
-  height: 80px;
+ 
 }
 .logo-btn:hover {
   cursor: pointer;
