@@ -20,7 +20,7 @@ const getClients = graphql`
           starSign
           afterImage {
             fluid {
-              ...GatsbyContentfulFluid_tracedSVG
+              ...GatsbyContentfulFluid_tracedSVG 
             }
           }
         }
