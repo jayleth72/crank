@@ -28,7 +28,7 @@ const Client = ({ client }) => {
           paintDrip
           hex="#222"
           className={styles.link}
-          to={`/clients/${shortBio}`}
+          to={`/clients/${name}`}
         >
           {name + "'s "} story
         </AniLink>
